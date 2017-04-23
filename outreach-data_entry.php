@@ -258,6 +258,7 @@
 
 									<div class="panel-footer text-right">
 										<button type="reset" class="btn btn-sm btn-default">Clear form</button>
+										<button type="submit" class="btn btn-sm btn-default">Preview</button>
 										<button type="submit" class="btn btn-sm btn-info">Save</button>
 									</div>
 								</div>

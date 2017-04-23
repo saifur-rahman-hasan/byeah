@@ -49,84 +49,53 @@
 				<div class="container-fluid">
 					<div class="row">
 						
-						<br>
-						<br>
+						<br><br>
 
-						<div class="col-sm-12">
-							
-							<!-- Form - Overall Outreach Report -->
-							<form action="#" method="POST" id="form-outreach-overall-report-search" class="form">
+						<!-- Form - Outreach analytics search -->
+						<div class="col-sm-12">							
+							<form action="#" method="GET">
 								<div class="panel panel-default">
+									
 									<div class="panel-heading">
 										<h4>
-											Reports - Search <br>
-											<small>Overall - Outreach Workshop</small>
+											Analytic Report <br>
+											<small>Please the date time range to get analytic result.</small>
 										</h4>
 									</div>
-
-									<div class="panel-body">
-										
+									
+									<div class="panel-body">	
 										<div class="row">
-											<div class="col-sm-6 form-group">
-	
-												<label for="demographic_information">Demographic Information</label>
-												<select name="demographic_information" id="demographic_information" class="selectpicker show-tick show-menu-arrow form-control" data-width="100%" multiple>
-													<option value="age">Age</option>
-													<option value="gender">Gender</option>
-													<option value="education">Education</option>
-													<option value="nid">NID</option>
-													<option value="location">Location</option>
-													<option value="gender">Gender</option>
-												</select>
 
+											<div class="col-sm-6 form-group m-b-0">
+												<div class="input-group date">
+													<div class="input-group-addon">
+														<span class="fa fa-calendar"></span>
+													</div>
+													<input type="text" name="date_form" placeholder="Date From" class="form-control" data-provide="datepicker">
+												</div>
 											</div>
 
-											<div class="col-sm-6 form-group">
-												<label for="business_information">Business Information</label>
-												<select name="business_information" id="business_information" class="selectpicker show-tick show-menu-arrow form-control" data-width="100%" multiple>
-													<option value="type">Type</option>
-													<option value="number_of_employees">Number of Employees</option>
-													<option value="bank_loan">Bank Loan</option>
-													<option value="traning">Traning</option>
-													<option value="area_of_interest">Area of Interests</option>
-													<option value="gender">Gender</option>
-												</select>
+											<div class="col-sm-6 form-group m-b-0">
+												<div class="input-group date">
+													<div class="input-group-addon">
+														<span class="fa fa-calendar"></span>
+													</div>
+													<input type="text" name="date_to" placeholder="Date To" class="form-control" data-provide="datepicker">
+												</div>
 											</div>
+
 										</div>
-
-										<div class="row">
-											<div class="col-sm-6 form-group">
-	
-												<label for="program_information">Programe Related Information</label>
-												<select name="program_information" id="program_information" class="selectpicker show-tick show-menu-arrow form-control" data-width="100%" multiple>
-													<option value="business_related_gov_regulation">Business related Gov. Regulations</option>
-													<option value="profitable_business_ideas">Selecting Profitable Business Ideas</option>
-												</select>
-
-											</div>
-
-											<div class="col-sm-6 form-group">
-												<label for="eligibility_for_market_visit">Eligibility for market Visit</label>
-												<select name="eligibility_for_market_visit" id="eligibility_for_market_visit" class="selectpicker show-tick show-menu-arrow form-control" data-width="100%" multiple>
-													<option value="individual_assestment">individual assestment</option>
-													<option value="waiting_list">Waiting List</option>
-												</select>
-											</div>
-										</div>
-
 									</div>
 
 									<div class="panel-footer">
-										<button type="reset" class="btn btn-sm btn-default">Reset form</button>
-										<button type="submit" class="btn btn-sm btn-info">Generate Report</button>
+										<button type="reset" class="btn btn-sm btn-default">Clear form</button>
+										<button type="submit" class="btn btn-sm btn-info">Generate report</button>
 									</div>
-
 								</div>
 							</form>
-							<!-- End Form - Overall Outreach Report -->
-							
 						</div>
-						
+						<!-- End Form - Outreach analytics search -->
+
 					</div>
 				</div>
 			</div>

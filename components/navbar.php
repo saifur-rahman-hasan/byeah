@@ -110,15 +110,15 @@
                                     <a href="outreach-generate_report-overall.php">Overall</a>
                                 </li>
                                 <li>
-                                    <a href="#">Individual</a>
+                                    <a href="outreach-generate_report-individual.php">Individual</a>
                                 </li>
                                 <li>
-                                    <a href="#">Batch-wise</a>
+                                    <a href="outreach-generate_report-batch_wise.php">Batch-wise</a>
                                 </li>
                             </ul>
                         </li>
                         <li>
-                            <a href="morris.html">Analytics</a>
+                            <a href="outreach-analytics.php">Analytics</a>
                         </li>
                     </ul>
                 </li>
