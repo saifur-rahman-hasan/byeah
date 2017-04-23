@@ -1,0 +1,39 @@
+/*
+	
+	Project Name 			:	Bootstrap Starter Kit;
+	Project Description 	:	A Simple Bootstrap Theme Starter Kit, which will reduce your few time;
+	Author Name 			:	Saifur Rahman (Hasan);
+	Author Mobile Number 	:	+8801727213319;
+	Author Email 			:	saifur.dohs@gmail.com || me@coderpalace.com;	
+	__________________________________________________________________________________________________
+	
+	Project Name 			:	Project Name;
+	Project Description 	:	Project Description;
+	Author Name 			:	Author Full name;
+	Author Mobile Number 	:	Author Mobile Number;
+	Author Email 			:	Author Email Address;
+
+*/
+
+/* Fonts */
+.font-Roboto{ font-family: 'Roboto', sans-serif; }
+.font-Ubuntu{ font-family: 'Ubuntu', sans-serif; }
+.font-Raleway{ font-family: 'Raleway', sans-serif; }
+/*#############################################################*/
+
+/* Icons */
+.fa{ vertical-align: middle; }
+/*##########################*/
+
+/* Helper Classes */
+.center-x{ position: absolute; left: 50%; transform: translateX(-50%);  }
+.center-y{ position: absolute; top: 50%; transform: translateY(-50%); }
+.center-xy{ position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+
+.display-none{ display: none; }
+.display-block{ display: block; }
+.display-table{ display: table; }
+.display-table > .display-table-cell{ display: table-cell; vertical-align: middle; }
+
+/* Bootstrap Overwrite */
+.form-group:last-child{ margin-bottom: 0; }
