@@ -1,20 +1,3 @@
-<!--
-	
-	Project Name 			:	Bootstrap Starter Kit;
-	Project Description 	:	A Simple Bootstrap Theme Starter Kit, which will reduce your few time;
-	Author Name 			:	Saifur Rahman (Hasan);
-	Author Mobile Number 	:	+8801727213319;
-	Author Email 			:	saifur.dohs@gmail.com || me@coderpalace.com;	
-	__________________________________________________________________________________________________
-	
-	Project Name 			:	Project Name;
-	Project Description 	:	Project Description;
-	Author Name 			:	Author Full name;
-	Author Mobile Number 	:	Author Mobile Number;
-	Author Email 			:	Author Email Address;
-
--->
-
 <!DOCTYPE html>
 <html>
 	<head>
@@ -26,22 +9,18 @@
 		<link rel="icon" href="#">
 
 		<!-- Page Title -->
-		<title>Document Title</title>
+		<title>Byeah - Dahboard</title>
 
 		<!-- Global CSS [ Bootstrap, Font-Awesome, Animate CSS ] -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
 		<!-- Google Fonts -->
-		<link href="https://fonts.googleapis.com/css?family=Raleway|Roboto|Ubuntu" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
 		<!-- APP CSS -->
 		<link rel="stylesheet" href="assets/css/app.min.css">
-		
-		<!-- APP Window Preloader Script -->
-		<script></script>
-		<!-- End APP Window Preloader Script -->
 
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -53,32 +32,58 @@
 	</head>
 	<body>
 		
-
-		
-		<!-- Navbar -->
-		<!-- End Navbar -->
-
-		<!-- Body Content -->
 		<div class="center-xy">
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-6 col-sm-offset-3">
+					<div class="col-sm-4 col-sm-offset-4">
 						
-						<h1 class="text-center" data-plugin="tooltip" title="Hello World! I'm S Rahman Hasan">Hello website!</h1>
+						<div class="page-header text-center">
+							<h2>
+								Byeah <br>	
+								<small>Outreach Workshop</small>
+							</h2>
+						</div>
+
+						<!-- Form - Login -->
+						<form action="#" method="POST" id="form-login" autocomplete="off">
+							<div class="panel panel-default">
+
+								<div class="panel-heading">
+									<h4>Dashboard | Log In</h4>
+								</div>
+
+								<div class="panel-body">
+
+									<div class="form-group">
+										<input type="text" name="username" placeholder="Username" class="form-control">
+									</div>
+								
+									<div class="form-group">
+										<input type="password" name="password" placeholder="Password" class="form-control">
+									</div>
+									
+									<div class="form-group">
+										<button type="submit" class="btn btn-sm btn-block btn-primary">Log In</button>
+									</div>
+
+								</div>
+
+							</div>
+
+							<a href="password-forgot.php">Forgot password?</a>
+
+						</form>
+						<!-- End Form - Login -->
 
 					</div>
 				</div>
 			</div>
 		</div>
-		<!-- End Body Content -->
-
-		<!-- Footer -->
-		<!-- End Footer -->
 
 		<!-- Global JS [  jQuery, Bootstrap ] -->
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+	
 		<!-- APP JS -->
 		<script type="text/javascript" src="assets/js/app.min.js"></script>
 
