@@ -104,7 +104,18 @@
                             <a href="outreach-data_entry.php">Enter Data</a>
                         </li>
                         <li>
-                            <a href="morris.html">Generate Reports</a>
+                            <a href="morris.html">Generate Reports <span class="fa arrow"></span></a>
+                            <ul class="nav nav-third-level">
+                                <li>
+                                    <a href="outreach-generate_report-overall.php">Overall</a>
+                                </li>
+                                <li>
+                                    <a href="#">Individual</a>
+                                </li>
+                                <li>
+                                    <a href="#">Batch-wise</a>
+                                </li>
+                            </ul>
                         </li>
                         <li>
                             <a href="morris.html">Analytics</a>
