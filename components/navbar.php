@@ -120,7 +120,21 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="outreach-analytics.php">Analytics</a>
+                            <a href="outreach-analytics.php">Analytics <span class="fa arrow"></span></a>
+                            <ul class="nav nav-third-level">
+                                <li>
+                                    <a href="outreach-generate_report-overall.php">KPI</a>
+                                </li>
+                                <li>
+                                    <a href="outreach-generate_report-individual.php">Workshop</a>
+                                </li>
+                                <li>
+                                    <a href="outreach-generate_report-batch_wise.php">Participants</a>
+                                </li>
+                                <li>
+                                    <a href="outreach-generate_report-batch_wise.php">Elligible for Individual assesment</a>
+                                </li>
+                            </ul>
                         </li>
                     </ul>
                 </li>
@@ -132,7 +146,13 @@
                     </a>
                     <ul class="nav nav-second-level">
                         <li>
-                            <a href="#">Link #</a>
+                            <a href="#">Enter Data</a>
+                        </li>
+                        <li>
+                            <a href="#">Generate Reports</a>
+                        </li>
+                        <li>
+                            <a href="#">Analytics</a>
                         </li>
                     </ul>
                 </li>
