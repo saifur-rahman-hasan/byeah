@@ -15,9 +15,11 @@
 
         <!-- Dashboard - Messages -->
         <li class="dropdown">
+            
             <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                 <i class="fa fa-envelope fa-fw"></i> <i class="fa fa-caret-down"></i>
             </a>
+
             <ul class="dropdown-menu dropdown-messages">
 
                 <li>
@@ -41,6 +43,7 @@
                     </a>
                 </li>
             </ul>
+
         </li>
         <!-- End Dashboard - Messages -->
         
@@ -85,7 +88,6 @@
                             </span>
                         </div>
                     </div>
-                    <!-- /input-group -->
                 </li>
                 <!-- Form - Sidebar Search -->
                 
@@ -169,7 +171,6 @@
                             <a href="#">Link #</a>
                         </li>
                     </ul>
-                    <!-- /.nav-second-level -->
                 </li>
                 <!-- #### -->
                 
@@ -182,7 +183,6 @@
                             <a href="#">Link #</a>
                         </li>
                     </ul>
-                    <!-- /.nav-second-level -->
                 </li>
                 <!-- #### -->
 
@@ -215,7 +215,6 @@
                             <a href="#">Link #</a>
                         </li>
                     </ul>
-                    <!-- /.nav-second-level -->
                 </li>
                 <!-- #### -->
 
@@ -228,7 +227,6 @@
                             <a href="#">Link #</a>
                         </li>
                     </ul>
-                    <!-- /.nav-second-level -->
                 </li>
                 <!-- #### -->
                 
@@ -241,7 +239,6 @@
                             <a href="#">Link #</a>
                         </li>
                     </ul>
-                    <!-- /.nav-second-level -->
                 </li>
                 <!-- #### -->
 
@@ -254,7 +251,6 @@
                             <a href="#">Link #</a>
                         </li>
                     </ul>
-                    <!-- /.nav-second-level -->
                 </li>
                 <!-- #### -->
                 
@@ -267,7 +263,6 @@
                             <a href="#">Link #</a>
                         </li>
                     </ul>
-                    <!-- /.nav-second-level -->
                 </li>
                 <!-- End Dashboard Links -->
 

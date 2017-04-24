@@ -51,7 +51,6 @@
 					<div class="row">
 						
 						<br>
-						<br>
 						
 						<!-- Individuals Data Table -->
 						<div class="col-sm-12">
@@ -79,13 +78,13 @@
 													<td>+88 XXX XX XX XX</td>
 													<td>
 														<div class="btn-group">
-															<a href="#?profile_id=1" class="btn btn-sm btn-default" data-toggle="modal" data-modalFor="outreach_individual_view" data-plugin="tooltip" title="View">
+															<a href="#" class="btn btn-sm btn-default" data-toggle="modal" data-modalFor="outreach_individual_view" data-plugin="tooltip" title="View">
 																<i class="fa fa-lg fa-eye"></i>
 															</a>
-															<a href="#?profile_id=1" class="btn btn-sm btn-default" data-toggle="modal" data-modalFor="outreach_individual_edit" data-plugin="tooltip" title="Edit">
+															<a href="#" class="btn btn-sm btn-default" data-toggle="modal" data-modalFor="outreach_individual_edit" data-plugin="tooltip" title="Edit">
 																<i class="fa fa-lg fa-edit"></i>
 															</a>
-															<a href="#?profile_id=1" class="btn btn-sm btn-default" data-toggle="modal" data-modalFor="outreach_individual_delete" data-plugin="tooltip" title="Delete">
+															<a href="#" class="btn btn-sm btn-default" data-toggle="modal" data-modalFor="outreach_individual_delete" data-plugin="tooltip" title="Delete">
 																<i class="fa fa-lg fa-trash"></i>
 															</a>
 														</div>
@@ -108,7 +107,16 @@
 		<!-- End Page Wrapper -->
 		
 		<!-- Global Modal -->
-		<div class="modal fade" id="_global_modal"></div>
+		<div class="modal fade" id="_global_modal">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-body text-center">
+						<i class="fa fa-3x fa-spin fa-spinner"></i>
+						<h5>Please wait...</h5>
+					</div>
+				</div>
+			</div>
+		</div>
 		<!-- End Global Modal -->
 
 		<!-- Global JS [  jQuery, Bootstrap, Bootstrap Datepicker, Bootstrap Select, Bootstrap Data Table ] -->

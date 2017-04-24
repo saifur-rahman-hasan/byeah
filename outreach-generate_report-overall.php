@@ -50,7 +50,6 @@
 					<div class="row">
 						
 						<br>
-						<br>
 
 						<div class="col-sm-12">
 							

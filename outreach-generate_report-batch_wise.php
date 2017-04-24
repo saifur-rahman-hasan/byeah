@@ -47,9 +47,45 @@
 			<!-- Page Wrapper -->
 			<div id="page-wrapper">
 				<div class="container-fluid">
+					
+					<br>
+
 					<div class="row">
 						
-						
+						<form action="#" method="GET" autocomplete="off">
+							<div class="col-sm-12">
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<h4>
+											Reports - Batch-wise
+											<br>
+											<small>Select batch number to get more data</small>
+										</h4>
+									</div>
+									<div class="panel-body">
+										<div class="row">
+											<div class="col-sm-6 form-group">
+
+												<div class="input-group">
+													<select name="batch_group" class="selectpicker show-tick show-menu-arrow form-control" data-width="100%" data-live-search="true">
+														<option value="0">Select Batch</option>
+														<option value="1">Batch One</option>
+														<option value="2">Batch Two</option>
+														<option value="3">Batch Three</option>
+														<option value="4">Batch Four</option>
+													</select>
+													<span class="input-group-btn">
+														<button type="submit" class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
+													</span>
+												</div>
+
+												
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</form>
 						
 					</div>
 				</div>
