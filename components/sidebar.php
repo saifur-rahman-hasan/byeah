@@ -52,16 +52,16 @@
                         <a href="outreach-analytics.php">Analytics <span class="fa arrow"></span></a>
                         <ul class="nav nav-third-level">
                             <li>
-                                <a href="outreach-generate_report-overall.php">KPI</a>
+                                <a href="#">KPI</a>
                             </li>
                             <li>
-                                <a href="outreach-generate_report-individual.php">Workshop</a>
+                                <a href="#">Workshop</a>
                             </li>
                             <li>
                                 <a href="outreach-analytics_participents.php">Participants</a>
                             </li>
                             <li>
-                                <a href="outreach-generate_report-batch_wise.php">Elligible for Individual assesment</a>
+                                <a href="outreach-analytics_elligiable_individual_assessment.php">Elligible for Individual assesment</a>
                             </li>
                         </ul>
                     </li>
@@ -82,18 +82,18 @@
                         <a href="#">Generate Reports<span class="fa arrow"></span></a>
                         <ul class="nav nav-third-level">
                             <li>
-                                <a href="Individusal_Assessment-Generate_Reports-overall.php">Overall</a>
+                                <a href="individual_assessment-generate_reports-overall.php">Overall</a>
                             </li>
                             <li>
-                                <a href="Individusal_Assessment-Generate_Reports-indivisual.php">Individual</a>
+                                <a href="individual_assessment-generate_reports-individual.php">Individual</a>
                             </li>
                             <li>
-                                <a href="#">Batch-wise</a>
+                                <a href="individual_assessment-generate_reports-batch_wise.php">Batch-wise</a>
                             </li>
                         </ul>
                     </li>
                     <li>
-                        <a href="individusal_Assement-analytics.php">Analytics</a>
+                        <a href="individual_assessment-analytics.php">Analytics</a>
                     </li>
                 </ul>
             </li>
@@ -112,29 +112,18 @@
                         <a href="#">Generate Reports<span class="fa arrow"></span></a>
                         <ul class="nav nav-third-level">
                             <li>
-                                <a href="#">Overall</a>
+                                <a href="registration-generate_report-overall.php">Overall</a>
                             </li>
                             <li>
-                                <a href="#">Individual</a>
+                                <a href="registration-generate_report-individual.php">Individual</a>
                             </li>
                             <li>
-                                <a href="#">Batch-wise</a>
+                                <a href="registration-generate_report-batch_wise.php">Batch-wise</a>
                             </li>
                         </ul>
                     </li>
                     <li>
-                        <a href="registration-analytics.php">Analytics <span class="fa arrow"></span></a>
-                        <ul class="nav nav-third-level">
-                            <li>
-                                <a href="outreach-generate_report-overall.php">KPI</a>
-                            </li>
-                            <li>
-                                <a href="outreach-generate_report-individual.php">Individusal Assessment</a>
-                            </li>
-                            <li>
-                                <a href="outreach-generate_report-batch_wise.php">Participants</a>
-                            </li>
-                        </ul>
+                        <a href="registration-analytics.php">Analytics</a>
                     </li>
                 </ul>
             </li>
