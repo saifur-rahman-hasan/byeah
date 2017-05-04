@@ -139,7 +139,7 @@
                         <a href="#">Enter Data<span class="fa arrow"></span></a>
                         <ul class="nav nav-third-level">
                             <li>
-                                <a href="#">Enter baseline Data</a>
+                                <a href="ell_data-enter_data-enter_baseline_data.php">Enter baseline Data</a>
                             </li>
                             <li>
                                 <a href="#">How I Am</a>
@@ -179,16 +179,16 @@
                         <a href="#">Analytics <span class="fa arrow"></span></a>
                         <ul class="nav nav-third-level">
                             <li>
-                                <a href="Ell_data-analytics-who_i_am.php">How I Am</a>
+                                <a href="ell_data-analytics-how_i_am.php">How I Am</a>
                             </li>
                             <li>
                                 <a href="#">What I Know</a>
                             </li>
                             <li>
-                                <a href="Ell_data-analytics-how_i_know.php">How I Know</a>
+                                <a href="ell_data-analytics-Who_i_know.php">How I Know</a>
                             </li>
                             <li>
-                                <a href="Ell_data-analytics-what_i_earn.php">What I Earn </a>
+                                <a href="ell_data-analytics-what_i_earn.php">What I Earn </a>
                             </li>
                         </ul>
                     </li>
@@ -203,16 +203,16 @@
                 </a>
                 <ul class="nav nav-second-level">
                     <li>
-                        <a href="#">Recruitment and Registration</a>
+                        <a href="mentorship-recruitment_and_registration.php">Recruitment and Registration</a>
                     </li>
                     <li>
-                        <a href="#">Orientation</a>
+                        <a href="mentorship-orientatio.php">Orientation</a>
                     </li>
                     <li>
-                        <a href="#">Matching Workshop</a>
+                        <a href="mentorship-matching_workshop.php">Matching Workshop</a>
                     </li>
                     <li>
-                        <a href="#">Mentoring Club</a>
+                        <a href="mentorship-mentorin_club.php">Mentoring Club</a>
                     </li>
                 </ul>
             </li>
@@ -228,13 +228,13 @@
                         <a href="#">Enter Traning Data</a>
                     </li>
                     <li>
-                        <a href="#">Pre-Test Score</a>
+                        <a href="basic_traning-enter_traning_data-pre_test_score.php">Pre-Test Score</a>
                     </li>
                     <li>
-                        <a href="#">Post-Test Score</a>
+                        <a href="basic_traning-enter_traning_data-post_test_score.php">Post-Test Score</a>
                     </li>
                     <li>
-                        <a href="#">Analytics</a>
+                        <a href="basic_traning-analytics.php">Analytics</a>
                     </li>
                 </ul>
             </li>
@@ -250,13 +250,13 @@
                         <a href="#">Enter Traning Data</a>
                     </li>
                     <li>
-                        <a href="#">Pre-Test Score</a>
+                        <a href="advance_traning-enter_traning_data-pre_test_score.php">Pre-Test Score</a>
                     </li>
                     <li>
-                        <a href="#">Post-Test Score</a>
+                        <a href="advance_traning-enter_traning_data-post_test_score.php">Post-Test Score</a>
                     </li>
                     <li>
-                        <a href="#">Analytics <span class="fa arrow"></span></a>
+                        <a href="advance_traning-analytics.php">Analytics <span class="fa arrow"></span></a>
                         <ul class="nav nav-third-level">
                             <li>
                                 <a href="#">Third Level Item</a>
@@ -274,10 +274,10 @@
                 </a>
                 <ul class="nav nav-second-level">
                     <li>
-                        <a href="#">Participant</a>
+                        <a href="business_plan_lab-participant.php">Participant</a>
                     </li>
                     <li>
-                        <a href="#">Admin</a>
+                        <a href="business_plan_lab-admin.php">Admin</a>
                     </li>
                 </ul>
             </li>
@@ -285,14 +285,10 @@
             
             <!-- Start Business Plan Trial -->
             <li>
-                <a href="#">
+                <a href="business_plan_trial.php">
                     <i class="fa fa-gavel fa-fw"></i> Business Plan Trial <span class="fa arrow"></span>
                 </a>
-                <ul class="nav nav-second-level">
-                    <li>
-                        <a href="#">Link #</a>
-                    </li>
-                </ul>
+                
             </li>
             <!-- #### -->
             
@@ -303,10 +299,10 @@
                 </a>
                 <ul class="nav nav-second-level">
                     <li>
-                        <a href="#">Review Schedule</a>
+                        <a href="loan_panel_review-review_schedule.php">Review Schedule</a>
                     </li>
                     <li>
-                        <a href="#">Show Calender</a>
+                        <a href="loan_panel_review-show-calendar.php">Show Calender</a>
                     </li>
                 </ul>
             </li>
@@ -319,10 +315,10 @@
                 </a>
                 <ul class="nav nav-second-level">
                     <li>
-                        <a href="#">Calender Entry</a>
+                        <a href="nbfi-calender_entry.php">Calender Entry</a>
                     </li>
                     <li>
-                        <a href="#">Show Calender</a>
+                        <a href="nbfi-show_calender.php">Show Calender</a>
                     </li>
                 </ul>
             </li>
@@ -335,10 +331,10 @@
                 </a>
                 <ul class="nav nav-second-level">
                     <li>
-                        <a href="#">Calender Entry</a>
+                        <a href="follow_up-calender_entry.php">Calender Entry</a>
                     </li>
                     <li>
-                        <a href="#">Show Calender</a>
+                        <a href="follow_up-show_calender.php">Show Calender</a>
                     </li>
                 </ul>
             </li>
